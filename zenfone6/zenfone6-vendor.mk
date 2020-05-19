@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone6/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/asus/zenfone6/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/asus/zenfone6/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
+    vendor/asus/zenfone6/proprietary/etc/permissions/com.asus.fm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.asus.fm.xml \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
@@ -216,6 +217,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     aptxals \
+    AsusFMRadio \
+    AsusFMService \
     AsusCamera \
     AsusGallery \
     AsusGalleryBurst \
@@ -227,6 +230,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9340 \
     dpmserviceapp \
     qcrilmsgtunnel \
+    com.asus.fm \
     com.qti.location.sdk \
     izat.xt.srv \
     tcmclient \

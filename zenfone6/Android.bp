@@ -48,6 +48,26 @@ android_app_import {
 }
 
 android_app_import {
+	name: "AsusFMRadio",
+	owner: "asus",
+	apk: "proprietary/app/AsusFMRadio/AsusFMRadio.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "AsusFMService",
+	owner: "asus",
+	apk: "proprietary/app/AsusFMService/AsusFMService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "AsusCamera",
 	owner: "asus",
 	apk: "proprietary/priv-app/AsusCamera/AsusCamera.apk",
@@ -171,6 +191,12 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+dex_import {
+	name: "com.asus.fm",
+	owner: "asus",
+	jars: ["proprietary/framework/com.asus.fm.jar"],
 }
 
 dex_import {
