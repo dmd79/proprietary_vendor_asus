@@ -71,7 +71,7 @@ android_app_import {
 	name: "AsusCamera",
 	owner: "asus",
 	apk: "proprietary/priv-app/AsusCamera/AsusCamera.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},

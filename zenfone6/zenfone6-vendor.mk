@@ -248,6 +248,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/asus/zenfone6/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/asus/zenfone6/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
+    vendor/asus/zenfone6/proprietary/lib64/libAsusRGBSensorHAL.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libAsusRGBSensorHAL.so \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/asus/zenfone6/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
