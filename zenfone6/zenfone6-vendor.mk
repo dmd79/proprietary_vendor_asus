@@ -223,7 +223,6 @@ PRODUCT_PACKAGES += \
     AsusGallery \
     AsusGalleryBurst \
     MotorService \
-    com.qualcomm.location \
     QtiTelephonyService \
     AndroidAutoStub \
     HotwordEnrollmentOKGoogleWCD9340 \
