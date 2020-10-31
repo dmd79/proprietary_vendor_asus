@@ -83,7 +83,7 @@ android_app_import {
 	name: "AsusGallery",
 	owner: "asus",
 	apk: "proprietary/priv-app/AsusGallery/AsusGallery.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -94,7 +94,7 @@ android_app_import {
 	name: "AsusGalleryBurst",
 	owner: "asus",
 	apk: "proprietary/priv-app/AsusGalleryBurst/AsusGalleryBurst.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -105,7 +105,7 @@ android_app_import {
 	name: "MotorService",
 	owner: "asus",
 	apk: "proprietary/priv-app/MotorService/MotorService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -127,7 +127,7 @@ android_app_import {
 	name: "AndroidAutoStub",
 	owner: "asus",
 	apk: "proprietary/product/priv-app/AndroidAutoStub/AndroidAutoStub.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -139,7 +139,7 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "asus",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -151,7 +151,7 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleWCD9340",
 	owner: "asus",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
