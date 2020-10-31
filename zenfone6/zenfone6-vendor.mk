@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone6/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/zenfone6/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
     vendor/asus/zenfone6/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
+    vendor/asus/zenfone6/proprietary/etc/permissions/privapp-permissions-ASUS_I01WD.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-ASUS_I01WD.xml \
     vendor/asus/zenfone6/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/asus/zenfone6/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/asus/zenfone6/proprietary/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/descriptor.proto \
