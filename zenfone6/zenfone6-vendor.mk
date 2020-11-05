@@ -226,7 +226,6 @@ PRODUCT_PACKAGES += \
     AsusGalleryBurst \
     MotorService \
     QtiTelephonyService \
-    AndroidAutoStub \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     dpmserviceapp \
