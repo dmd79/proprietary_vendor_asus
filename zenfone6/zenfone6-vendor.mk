@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/zenfone6
 
 PRODUCT_COPY_FILES += \
+    vendor/asus/zenfone6/proprietary/etc/permissions/com.asus.fm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.asus.fm.xml \
     vendor/asus/zenfone6/proprietary/etc/videoeditor/Charming.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Charming.mfim \
     vendor/asus/zenfone6/proprietary/etc/videoeditor/Dynamic.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Dynamic.mfim \
     vendor/asus/zenfone6/proprietary/etc/videoeditor/Energetic.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Energetic.mfim \
@@ -213,6 +214,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     aptxals \
     AsusCamera \
+    AsusFMRadio \
+    AsusFMService \
     AsusGallery \
     AsusGalleryBurst \
     MotorK \
@@ -222,6 +225,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9340 \
     QtiTelephonyService \
     WfdService \
+    com.asus.fm \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
